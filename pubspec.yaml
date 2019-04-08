@@ -1,0 +1,12 @@
+name: darksky_weather_query
+description: A dart library for interfacing with the Dark Sky Weather API by using Google's reverse geocoding API to lookup address lat/long.  Requires flutter.
+version: 1.0.0
+author: 'Garrett Allen <garrett@adrenallen.com>'
+homepage: https://github.com/adrenallen/darksky-weather-query
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
+dependencies:
+  darksky_weather: ^1.2.0
+  geocoder: ^0.1.2
